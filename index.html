@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7e3e4">
+  <meta name="description" content="Happy Cupcake — boutique cupcake café concept in Istanbul.">
+  <title>Happy Cupcake — Pure Joy in Every Bite</title>
+  <link rel="icon" href="assets/happy-cupcake-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-mark"><img src="assets/happy-cupcake-logo.png" alt=""></div>
+    <p>Preparing something sweet…</p>
+  </div>
+  <div class="progress" id="progress"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="nav">
+      <a class="brand" href="#home">
+        <img src="assets/happy-cupcake-logo.png" alt="Happy Cupcake logo">
+        <div><strong>Happy Cupcake</strong><small>Istanbul</small></div>
+      </a>
+      <nav class="desktop-nav">
+        <a href="#story">Story</a><a href="#menu">Menu</a><a href="#process">Process</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+      </nav>
+      <a class="nav-cta" href="#visit">Order</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><i></i><i></i><i></i></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#story">Story</a><a href="#menu">Menu</a><a href="#process">Process</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+  </div>
+
+  <div class="scroll-cupcake" id="scrollCupcake" aria-hidden="true">
+    <div class="cupcake-shadow"></div>
+    <div class="cupcake-model">
+      <div class="cupcake-topper">H</div>
+      <div class="frosting"><i></i><i></i><i></i><i></i></div>
+      <div class="pearls"><b></b><b></b><b></b><b></b></div>
+      <div class="cake-base"></div>
+      <div class="shine"></div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-scene" id="heroScene">
+        <img class="hero-photo" src="assets/happy-cupcake-hero.jpg" alt="Happy Cupcake café interior">
+        <div class="hero-shade"></div>
+        <div class="glass-reflection"></div>
+        <div class="hero-glow g1"></div><div class="hero-glow g2"></div>
+        <span class="steam s1"></span><span class="steam s2"></span><span class="steam s3"></span>
+      </div>
+
+      <div class="hero-copy reveal" id="heroCopy">
+        <span class="kicker light">Boutique Cupcake Café · Istanbul</span>
+        <h1>Pure joy,<br><em>one bite at a time.</em></h1>
+        <p>Handmade cupcakes, floral details and warm coffee moments created for sweet celebrations.</p>
+        <div class="actions"><a class="btn primary" href="#menu">Explore the Menu</a><a class="btn ghost" href="#visit">Visit the Café</a></div>
+        <div class="chips"><span>Handmade daily</span><span>Custom cakes</span><span>Fresh coffee</span></div>
+      </div>
+
+      <div class="hero-stamp" id="heroStamp">
+        <img src="assets/happy-cupcake-logo.png" alt="Happy Cupcake">
+        <span>Made with love</span>
+      </div>
+      <div class="scroll-cue">Scroll to taste <i></i></div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="wrap two">
+        <div class="copy reveal"><span class="kicker">Our Story</span><h2>A tiny café with a big heart.</h2><p>Happy Cupcake is a soft, welcoming corner where pastel colors, warm light and handmade desserts turn an ordinary day into a small celebration.</p><p>Every detail—from rose frosting to floral cups—is designed to feel personal and memorable.</p><div class="stats"><div><b>Daily</b><span>fresh bakes</span></div><div><b>Custom</b><span>celebration cakes</span></div><div><b>Cozy</b><span>coffee moments</span></div></div></div>
+        <article class="journal reveal"><small>THE HAPPY JOURNAL</small><h3>Soft colors.<br>Fresh flavors.<br>Beautiful moments.</h3><p>For birthdays, gifts, first dates and quiet coffee breaks.</p><i class="ribbon"></i></article>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="wrap"><div class="heading reveal"><span class="kicker">Signature Menu</span><h2>Pick your happy.</h2><p>Demo items—replace names and prices with the real menu.</p></div>
+        <div class="menu-grid">
+          <article class="menu-card tilt reveal"><div class="food rose"><span class="cake"></span><span class="frost"></span><b>H</b></div><div class="menu-copy"><small>01</small><h3>Rose Vanilla</h3><p>Vanilla sponge, rose frosting and pearl sugar.</p><strong>₺ —</strong></div></article>
+          <article class="menu-card tilt reveal"><div class="food berry"><span class="cake"></span><span class="frost"></span><b class="cherry"></b></div><div class="menu-copy"><small>02</small><h3>Berry Blush</h3><p>Berry cream, vanilla cake and a glossy cherry.</p><strong>₺ —</strong></div></article>
+          <article class="menu-card tilt reveal"><div class="food cocoa"><span class="cake"></span><span class="frost"></span><b>●</b></div><div class="menu-copy"><small>03</small><h3>Cocoa Dream</h3><p>Chocolate sponge, cocoa cream and dark chocolate.</p><strong>₺ —</strong></div></article>
+          <article class="menu-card tilt reveal"><div class="food latte"><span class="cup"><i></i></span></div><div class="menu-copy"><small>04</small><h3>Pink Latte</h3><p>Silky coffee in the café’s signature floral cup.</p><strong>₺ —</strong></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ingredients"><div class="wrap"><div class="heading reveal"><span class="kicker">The Details</span><h2>Small ingredients, beautiful balance.</h2></div><div class="orbit"><div class="orbit-center"><small>Handmade</small><b>with love</b></div><button style="--x:9%;--y:18%">Vanilla</button><button style="--x:75%;--y:12%">Strawberry</button><button style="--x:80%;--y:67%">Chocolate</button><button style="--x:8%;--y:72%">Rose</button><button style="--x:43%;--y:86%">Fresh Cream</button></div></div></section>
+
+    <section class="section" id="process"><div class="wrap"><div class="heading reveal"><span class="kicker">How It’s Made</span><h2>From batter to beautiful.</h2></div><div class="process-grid"><article class="step reveal"><span>01</span><h3>Mix</h3><p>Soft batter prepared in small batches.</p></article><article class="step reveal"><span>02</span><h3>Bake</h3><p>Golden cakes baked until light and tender.</p></article><article class="step reveal"><span>03</span><h3>Pipe</h3><p>Silky frosting shaped into signature roses.</p></article><article class="step reveal"><span>04</span><h3>Finish</h3><p>Pearls, petals and chocolate added by hand.</p></article></div></div></section>
+
+    <section class="section gallery" id="gallery"><div class="wrap"><div class="heading reveal"><span class="kicker">Sweet Gallery</span><h2>A little world in pink.</h2></div></div><div class="gallery-track" id="galleryTrack"><figure><img src="assets/happy-cupcake-hero.jpg" alt="Café mood"><figcaption>Signature café mood</figcaption></figure><figure class="crop-cupcake"><img src="assets/happy-cupcake-hero.jpg" alt="Rose cupcake"><figcaption>Rose frosting</figcaption></figure><figure class="crop-coffee"><img src="assets/happy-cupcake-hero.jpg" alt="Coffee"><figcaption>Slow coffee moments</figcaption></figure><figure class="crop-interior"><img src="assets/happy-cupcake-hero.jpg" alt="Interior"><figcaption>Pastel interior</figcaption></figure><figure class="crop-logo"><img src="assets/happy-cupcake-hero.jpg" alt="Happy Cupcake sign"><figcaption>Our signature corner</figcaption></figure></div></section>
+
+    <section class="section" id="reviews"><div class="wrap"><div class="heading reveal"><span class="kicker">Guest Notes</span><h2>Sweet words from happy visitors.</h2><p>Demo testimonials—replace with verified customer reviews before launch.</p></div><div class="review-grid"><article class="review reveal"><div>★★★★★</div><p>“The cutest café atmosphere and frosting almost too beautiful to eat.”</p><small>Sample Review · Visitor</small></article><article class="review reveal"><div>★★★★★</div><p>“Perfect for birthdays, gifts and a calm coffee break in Istanbul.”</p><small>Sample Review · Local Guest</small></article><article class="review reveal"><div>★★★★★</div><p>“Every detail feels carefully styled, from the flowers to the cupcakes.”</p><small>Sample Review · Customer</small></article></div></div></section>
+
+    <section class="section visit" id="visit"><div class="wrap visit-grid"><div class="copy reveal"><span class="kicker">Visit Happy Cupcake</span><h2>Come for dessert.<br>Stay for the mood.</h2><p>Add the exact Google Maps address, opening hours, phone, WhatsApp and Instagram before publishing.</p><div class="actions"><a class="btn primary" href="#">Open in Maps</a><a class="btn outline" href="#">Order on WhatsApp</a></div></div><article class="visit-card reveal"><img src="assets/happy-cupcake-logo.png" alt="Happy Cupcake"><h3>Happy Cupcake</h3><p>Kağıthane · Istanbul</p><div class="hours"><span>Monday — Sunday</span><b>Add real hours</b></div></article></div></section>
+
+    <section class="table-cta"><div class="table-scene"><div class="mini-cupcake"></div><div class="mini-cup"></div><img src="assets/happy-cupcake-logo.png" alt="Happy Cupcake"></div><div class="cta-copy reveal"><span>Made with love in Istanbul</span><h2>Ready for something sweet?</h2><a class="btn primary" href="#menu">Choose Your Cupcake</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><div class="footer-brand"><img src="assets/happy-cupcake-logo.png" alt="Happy Cupcake"><div><strong>Happy Cupcake</strong><p>Pure joy in every bite.</p></div></div><nav><a href="#story">Story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></nav><span>Demo website concept · 2026</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
